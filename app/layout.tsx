@@ -44,6 +44,9 @@ export const metadata: Metadata = {
     "Next.js",
     "Portfolio",
   ],
+  verification: {
+    google: "7_O_GvG67YqvlEqise-FgKGX-IrMd5I3xWAEjVwHV_k",
+  },
   openGraph: {
     title: "Anto Jovita | AI, Data Science, UI/UX & Frontend",
     description:
