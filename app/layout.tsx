@@ -18,7 +18,15 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    "https://anto-jovita-personal-portfolio.vercel.app"
+  ),
+
   title: "Anto Jovita | AI, Data Science, UI/UX & Frontend",
+
+  alternates: {
+    canonical: "/",
+  },
   description:
     "Portfolio of Anto Jovita, an AI & Data Science enthusiast exploring Generative AI, RAG, Agentic AI, UI/UX design, frontend development, and creative work.",
   keywords: [
